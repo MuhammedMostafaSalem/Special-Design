@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design One</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fascinate&family=Kdam+Thmor+Pro&family=Nuosu+SIL&family=Open+Sans:wght@300;400;500;600;700;800&family=Pacifico&family=Roboto+Condensed:wght@300;400;700&family=Satisfy&display=swap" >
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- start settings box -->
+    <div class="settings-box">
+        <div class="toggle_settings">
+            <i class="fa-solid fa fa-gear"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>colors</h4>
+                <ul class="colors_list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#5e548e"></li>
+                    <li data-color="#1d9eee"></li>
+                    <li data-color="#00f5d4"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>random backgrounds</h4>
+                <div class="random_backgrounds">
+                    <span class="yes active" data-background="yes">yes</span>
+                    <span class="no" data-background="no">no</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>show bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">yes</span>
+                    <span class="no" data-background="hide">no</span>
+                </div>
+            </div>
+            <button class="reset-option">reset option</button>
+        </div>
+    </div>
+    <!-- end settings box -->
+
+
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about_us">
+            <div class="tooltip">about us</div>
+        </div>
+        <div class="bullet" data-section=".our-skills">
+            <div class="tooltip">our skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">our gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeLine">
+            <div class="tooltip">timeLine</div>
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">features</div>
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">testimonials</div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+
+    <!-- start landing page -->
+    <div class="landing_page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">special design</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about_us">about</a></li>
+                        <li><a href="#" data-section=".our-skills">skills</a></li>
+                        <li><a href="#" data-section=".gallery">gallery</a></li>
+                        <li><a href="#" data-section=".timeLine">timeLine</a></li>
+                        <li><a href="#" data-section=".features">features</a></li>
+                        <li><a href="#" data-section=".testimonials">testimonials</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>we are <span>creative</span> agancy</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione labore itaque molestiae libero deleniti laboriosam facilis ut corporis.</p>
+        </div>
+    </div>
+    <!-- end landing page -->
+
+
+    <!-- start about us -->
+    <div class="container">
+        <div class="about_us">
+            <div class="info_box">
+                <h2>about us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur velit saepe, fugit est voluptatem ducimus id sint magni possimus veritatis ipsam eius, nobis sed suscipit illo ipsa assumenda atque ex!</p>
+            </div>
+            <div class="img_box">
+                <img src="imgs/06.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us -->
+
+
+    <!-- start our skills -->
+    <div class="our-skills">
+        <div class="container">
+            <h2>our skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">html</div>
+                <div class="skill-progress">
+                    <span data-prog="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">css</div>
+                <div class="skill-progress">
+                    <span data-prog="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">javaScript</div>
+                <div class="skill-progress">
+                    <span data-prog="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">php</div>
+                <div class="skill-progress">
+                    <span data-prog="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">python</div>
+                <div class="skill-progress">
+                    <span data-prog="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">mySQL</div>
+                <div class="skill-progress">
+                    <span data-prog="70%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills -->
+
+
+    <!-- start gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>our gallery</h2>
+            <div class="imgs-box">
+                <img src="imgs/01.jpg" alt="Image One">
+                <img src="imgs/02.jpg" alt="Image Two">
+                <img src="imgs/03.jpg" alt="Image Three">
+                <img src="imgs/04.jpg" alt="Image Four">
+                <img src="imgs/05.jpg" alt="Image Five">
+                <img src="imgs/07.jpg" alt="">
+                <img src="imgs/08.jpg" alt="">
+                <img src="imgs/09.jpg" alt="">
+                <img src="imgs/10.jpg" alt="">
+                <img src="imgs/11.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end Gallery -->
+
+
+    <!-- start time line -->
+    <div class="timeLine">
+        <div class="container">
+            <div class="timeLine-content">
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>teasting heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in neque amet nostrum quae repellendus cumque numquam hic unde, necessitatibus, perferendis doloremque molestias deleniti ab voluptates totam accusantium nam? Accusantium?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>teasting heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in neque amet nostrum quae repellendus cumque numquam hic unde, necessitatibus, perferendis doloremque molestias deleniti ab voluptates totam accusantium nam? Accusantium?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end time line -->
+
+
+    <!-- start our features -->
+    <div class="features">
+        <h2>our features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/12.jpg" alt="">
+                <h4>web development</h4>
+                <p>we are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/13.jpg" alt="">
+                <h4>marketing</h4>
+                <p>we are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/14.jpg" alt="">
+                <h4>hosting</h4>
+                <p>we are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/15.jpg" alt="">
+                <h4>database</h4>
+                <p>we are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/16.jpg" alt="">
+                <h4>cloud & serveers</h4>
+                <p>we are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/17.jpg" alt="">
+                <h4>seo</h4>
+                <p>we are professional marketeers, we will do anything you imagine in no time</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- end our features -->
+
+
+    <!-- start testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>testimonials</h2>
+            <div class="testimonials-content">
+                <div class="ts-box">
+                    <p>i'm very happy with the product it's amazing , i recieve it very fast and the price was amazing</p>
+                    <div class="person-info">
+                        <img src="imgs/Muhammed.jpg" alt="">
+                        <h4>muhammed</h4>
+                        <p>CEO at company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>i'm very happy with the product it's amazing , i recieve it very fast and the price was amazing</p>
+                    <div class="person-info">
+                        <img src="imgs/Mostafa.jpg" alt="">
+                        <h4>mostafa</h4>
+                        <p>CEO at company</p>
+                    </div>
+                </div>
+                <div class="ts-box">
+                    <p>i'm very happy with the product it's amazing , i recieve it very fast and the price was amazing</p>
+                    <div class="person-info">
+                        <img src="imgs/Salem.jpg" alt="">
+                        <h4>salem</h4>
+                        <p>CEO at company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- end testimonials -->
+
+
+    <!-- start contact us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>contact us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact us -->
+
+
+    <!-- start footer -->
+    <footer>copy right by <span>muhammed mostafa salem</span></footer>
+    <!-- end footer -->
+
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
